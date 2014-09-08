@@ -6,17 +6,20 @@
 #include <fstream>
 #include <iostream>
 using namespace std;
-class ReadFile {
 
+//made struct a class
+class ReadFile {
+//made the global variable private
 private:
 	bool _eof;
 	ifstream input_file;
 	bool closed;
 
+//made class methods public
 public:
-	//ReadFile* ReadFile::createReadFile(const char* file_name);
-	ReadFile(const char* file_name);
-	virtual ~ReadFile();
+	
+	ReadFile(const char* file_name); //constructor
+	virtual ~ReadFile(); //destructor
 	String* readLine();
 	bool eof();
 	void close();
