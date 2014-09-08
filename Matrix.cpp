@@ -2,7 +2,7 @@
 
 #include <fstream>
 #include <iostream>
-using namespace std;
+using namespace std;//
 
 //the indices are 1-based!!
 Matrix::Matrix(int r, int c)

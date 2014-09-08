@@ -4,7 +4,7 @@
 #include <cstring>   //needed for strlen and strcmp
 #include <sstream>
 #include <iostream>
-using namespace std;
+using namespace std;//
 
 String::String(const char* char_array)
 {
