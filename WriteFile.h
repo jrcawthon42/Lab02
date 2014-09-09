@@ -8,15 +8,19 @@ using namespace std;
 
 class WriteFile
 {
-	private:
+private:
+	
+		
 		ofstream output_file;
 		bool closed;
 
-	public:
-		WriteFile(const char* file_name);
-		virtual ~WriteFile();
-		void writeLine();
-		void close();
 
+public:
+	WriteFile(const char* file_name);
+	virtual ~WriteFile();
+	void writeLine(String* line);
+	void close();
+		
+		
 };
 #endif

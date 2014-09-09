@@ -8,7 +8,7 @@
 using namespace std;
 
 //made struct a class
-class ReadFile {
+class ReadFile{
 //made the global variable private
 private:
 	bool _eof;
@@ -17,7 +17,6 @@ private:
 
 //made class methods public
 public:
-	
 	ReadFile(const char* file_name); //constructor
 	virtual ~ReadFile(); //destructor
 	String* readLine();
